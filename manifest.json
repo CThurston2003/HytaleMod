@@ -1,0 +1,21 @@
+{
+  "Group": "CatalystGroup",
+  "Name": "HytaleMod",
+  "Version": "1.0",
+  "Description": "Mod entry for the Hytale Modding competition",
+  "Authors": [
+    {
+      "Name": "Caleb Thurston",
+      "Email": "calebthurston123@gmail.com",
+      "Url": ""
+    }
+  ],
+  "Website": "website",
+  "ServerVersion": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}
