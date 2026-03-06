@@ -1,5 +1,5 @@
 ---
-name: Super Linter
+name: Linter
 
 on:
   push:
@@ -12,10 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run Linter
+      - name: Run Super Linter
         uses: github/super-linter@v4
         env:
-          # Could optionally add specific languages to lint here
           DEFAULT_BRANCH: main
           VALIDATE_JAVA: true
           VALIDATE_KOTLIN: true
@@ -23,3 +22,10 @@ jobs:
           VALIDATE_MARKDOWN: true
           VALIDATE_BASH: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
+      - name: Run Checkstyle Linter
+        uses: dbelyaev/action-checkstyle@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          checkstyle_config: "config/checkstyle/checkstyle.xml"
+
