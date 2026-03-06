@@ -1,0 +1,23 @@
+name: Super Linter
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Linter
+        uses: github/super-linter@v4
+        with:
+          # Could optionally add specific languages to lint here
+          DEFAULT_BRANCH: main
+          VALIDATE_JAVA: true
+          VALIDATE_KOTLIN: true
+          VALIDATE_JSON: true
+          VALIDATE_MARKDOWN: true
+          VALIDATE_BASH: true
+          VALIDATE_ALL_CODEBASE: false
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
