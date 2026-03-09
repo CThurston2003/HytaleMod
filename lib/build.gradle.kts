@@ -12,7 +12,7 @@ plugins {
 }
 
 checkstyle {
-    toolVersion= "10.17.0"
+    toolVersion = "10.17.0"
 }
 
 tasks.withType<Checkstyle>().configureEach {
@@ -43,4 +43,3 @@ java {
         languageVersion = JavaLanguageVersion.of(25)
     }
 }
-
