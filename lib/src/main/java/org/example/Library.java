@@ -3,6 +3,10 @@
  */
 package org.example;
 
+/**
+ * Satisfying linting standards temporarily
+ */
+
 public class Library {
     public boolean someLibraryMethod() {
         return true;
