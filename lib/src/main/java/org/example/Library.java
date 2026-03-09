@@ -3,7 +3,12 @@
  */
 package org.example;
 
-public class Library {
+/*
+Creating a Javadoc comment for linting
+@return bool
+
+ */
+public final class Library {
     public boolean someLibraryMethod() {
         return true;
     }
