@@ -4,7 +4,7 @@
 package org.example;
 
 /**
- * Satisfying linting standards temporarily
+ * Satisfying linting standards temporarily.
  */
 
 public class Library {
