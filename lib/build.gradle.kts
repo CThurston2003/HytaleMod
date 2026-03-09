@@ -5,14 +5,14 @@
  * For more details on building Java & JVM projects, please refer to https://docs.gradle.org/9.4.0/userguide/building_java_projects.html in the Gradle documentation.
  */
 
-import org.gradle.api.tasks.testing.logging.TestExceptionFormat
-import org.gradle.api.plugins.quality.Checkstyle
-
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     `java-library`
-    java
     checkstyle
+}
+
+checkstyle {
+    toolVersion= "10.17.0"
 }
 
 tasks.withType<Checkstyle>().configureEach {
@@ -30,11 +30,6 @@ repositories {
 }
 
 dependencies {
-    // Use JUnit Jupiter for testing.
-    testImplementation(libs.junit.jupiter)
-
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api(libs.commons.math3)
 
@@ -49,7 +44,3 @@ java {
     }
 }
 
-tasks.named<Test>("test") {
-    // Use JUnit Platform for unit tests.
-    useJUnitPlatform()
-}
