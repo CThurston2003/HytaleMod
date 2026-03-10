@@ -5,8 +5,8 @@ Commit message standards/style:
 
 <purpose>: <brief description of atomic commit>
 
-Purpose will likely be things like... 
-Adding a feature (feat), 
+Purpose will likely be things like...
+Adding a feature (feat),
 Fixing a bug (fix),
 Refactoring code (refactor)
 
@@ -19,7 +19,7 @@ Adding a feature (feat),
 Fixing a bug (fix),
 Refactoring code (refactor)
 
-Ideas for different categories in the mod. 
+Ideas for different categories in the mod.
 
 WORLDGEN V2:
 
