@@ -1,6 +1,10 @@
 {
   "Type": "NoiseRange",
-  "Biomes": [],
+  "Biomes": [
+    {
+      "Biome": "Gloomturf_Plains"
+    }
+  ],
   "DefaultBiome": "Basic",
   "DefaultTransitionDistance": 32,
   "MaxBiomeEdgeDistance": 32,
