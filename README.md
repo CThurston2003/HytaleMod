@@ -27,6 +27,16 @@ WORLDGEN V2:
   - Caves
   - Dungeons
   - Labyrinths?
+- Create the world into 1 massive zone based off of Dungeons and Dragons Barovia 
+  - (Instead of Barovia, call it Gloomturf)
+  - Dark gloomy vibes
+  - Dead trees
+  - gothic architecture
+  - skew monster spawns to more gothic dark gloomy monsters
+  - Castles
+  - Crows
+  - Steep cliffs with rolling plains to balance it out
+  - long winding rivers
 
 NPCS:
 - Enemies in Dungeons and Dragons esc biomes
