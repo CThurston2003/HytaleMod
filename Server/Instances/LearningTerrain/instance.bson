@@ -21,7 +21,7 @@
   "IsSavingPlayers": true,
   "WorldGen": {
     "Type": "HytaleGenerator",
-    "WorldStructure": "TestTerrain"
+    "WorldStructure": "LearningTerrain"
   },
   "SpawnProvider": {
     "Id": "Global",
