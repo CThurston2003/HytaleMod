@@ -27,7 +27,7 @@ WORLDGEN V2:
   - Caves
   - Dungeons
   - Labyrinths?
-- Create the world into 1 massive zone based off of Dungeons and Dragons Barovia 
+- Create the world into 1 massive zone based off of Dungeons and Dragons Barovia
   - (Instead of Barovia, call it Gloomturf)
   - Dark gloomy vibes
   - Dead trees
